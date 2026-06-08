@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv311/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Data files (keep .gitkeep)
+data/**/*.off
+data/**/*.ply
+data/**/*.pcd
+data/**/*.npy
+data/**/*.npz
+data/**/*.hdf5
+!data/**/.gitkeep
+
+# Processed data
+data/processed/**/*
+
+# Results
+experiment_results/
+results/
+outputs/
+logs/
+checkpoints/
+*.log
+*.png
+*.jpg
+*.pdf
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
