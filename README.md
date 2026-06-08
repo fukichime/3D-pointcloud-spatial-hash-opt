@@ -1,46 +1,43 @@
-```markdown
 # 3D Point Cloud Classification with Spatial Hashing
 
 This project implements a memory-efficient 3D point cloud classifier utilizing single-resolution spatial hashing. It compresses a 32³ binary voxel grid into a fixed-size 1D hash table, followed by classification using a lightweight Multi-Layer Perceptron (MLP). The methodology is evaluated on a 10-class ModelNet subset against a dense 3D CNN baseline.
 
 ## Repository Structure
-
-```
 .
 ├── data/
-│   ├── processed/
-│   └── raw/
-│       └── ModelNet40/
-│           └── header_fix/
+│ ├── processed/
+│ └── raw/
+│ └── ModelNet40/
+│ └── header_fix/
 ├── experiment_results/
 ├── src/
-│   ├── __init__.py
-│   ├── data/
-│   │   ├── __init__.py
-│   │   ├── dataset.py
-│   │   ├── dense_dataset.py
-│   │   ├── off_to_pointcloudv1.py
-│   │   ├── off_to_pointcloudv2.py
-│   │   └── voxelization.py
-│   ├── experiments/
-│   │   ├── __init__.py
-│   │   ├── plot_results.py
-│   │   └── run_hash_sweep.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── cnn_3d_baseline.py
-│   │   ├── hash_encoder.py
-│   │   ├── hash_model.py
-│   │   └── mlp_classifier.py
-│   ├── training/
-│   │   ├── __init__.py
-│   │   ├── metrics_logger.py
-│   │   ├── train_cnn.py
-│   │   └── train_hash.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── config.py
-│       └── hash_function.py
+│ ├── init.py
+│ ├── data/
+│ │ ├── init.py
+│ │ ├── dataset.py
+│ │ ├── dense_dataset.py
+│ │ ├── off_to_pointcloudv1.py
+│ │ ├── off_to_pointcloudv2.py
+│ │ └── voxelization.py
+│ ├── experiments/
+│ │ ├── init.py
+│ │ ├── plot_results.py
+│ │ └── run_hash_sweep.py
+│ ├── models/
+│ │ ├── init.py
+│ │ ├── cnn_3d_baseline.py
+│ │ ├── hash_encoder.py
+│ │ ├── hash_model.py
+│ │ └── mlp_classifier.py
+│ ├── training/
+│ │ ├── init.py
+│ │ ├── metrics_logger.py
+│ │ ├── train_cnn.py
+│ │ └── train_hash.py
+│ └── utils/
+│ ├── init.py
+│ ├── config.py
+│ └── hash_function.py
 ├── .gitignore
 ├── requirements.txt
 ├── run_cnn.py
@@ -50,7 +47,6 @@ This project implements a memory-efficient 3D point cloud classifier utilizing s
 ├── test_models.py
 ├── voxel_visual.py
 └── voxel_visualv2.py
-```
 
 ## Dataset
 
