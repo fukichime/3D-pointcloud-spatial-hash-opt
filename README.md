@@ -132,7 +132,7 @@ If you use this work, please cite:
 @misc{aygun2025spatialhash,
   author       = {Esranur Ayg{\"u}n},
   title        = {Optimal Hash Table Size for 3D Point Cloud Classification},
-  year         = {2025},
+  year         = {2026},
   howpublished = {\url{https://github.com/fukichime/3D-pointcloud-spatial-hash-opt}},
   note         = {Department of Computer Engineering, Bahçeşehir University}
 }
