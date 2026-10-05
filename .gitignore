@@ -20,16 +20,12 @@ data/**/*.hdf5
 # Processed data
 data/processed/**/*
 
-# Results
+# Results (regenerated artifacts, not committed)
 experiment_results/
 results/
 outputs/
 logs/
-checkpoints/
 *.log
-*.png
-*.jpg
-*.pdf
 *.csv
 
 # Python cache
